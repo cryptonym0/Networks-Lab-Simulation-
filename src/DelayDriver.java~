@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class DelayDriver {
+    public static  void main(String[] args){
+      
+        long message = 100 * 1000 * 1000;
+        long packetSize = 10 * 1000 * 1000;
+        
+        //Get User input
+//        Scanner s = new Scanner(System.in);
+//        System.out.println("Please Enter A Packet Size: ");
+//        
+
+        //Test w/o user
+        
+
+      
+        
+        Message msg = new Message(message, packetSize);
+    }
+}
